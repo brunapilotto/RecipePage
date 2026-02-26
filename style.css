@@ -1,4 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Alice", serif;
+    text-align: justify;
+    font-weight: normal;
+    color: black;
+}
+
 body {
     background-image: url(assets/bg-image.svg);
     background-size: cover;
+}
+
+#page {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #FAFDFF;
+    border-radius: 16px;
+    width: 800px;
+    margin: 72px auto;
+}
+
+main {
+    padding: 0px 24px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 140%;
+    line-height: 140%;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+h1, h2 {
+    color: #525252;
+    margin-bottom: 4px;
+    margin-top: 24px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+ul, ol {
+    margin-left: 24px;
+    margin-bottom: 12px;
 }
